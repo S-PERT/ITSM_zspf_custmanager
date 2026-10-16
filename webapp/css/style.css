@@ -1,0 +1,5 @@
+/* Hide standard create button */
+button[id*="StandardAction::Create"],
+[id*="StandardAction::Create"] {
+    display: none !important;
+}
